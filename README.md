@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/Igosuki/compass-mixins.svg?branch=master)](https://travis-ci.org/Igosuki/compass-mixins)
 
+```bash
+git submodule init
+git submodule add git@github.com:senakamura/compass-mixins.git lib/compass-mixins
+```
+
 # Compass SASS Stylesheets
 
 This is a repository to pull SASS style sheets on Bower, and enjoy the compass mixins by using libsass for faster compilation. This project makes minimal modifications to the original stylesheets from the [original repository](https://github.com/Compass/compass/tree/stable/core/stylesheets), intented to improve libsass compatibility and not change output.
